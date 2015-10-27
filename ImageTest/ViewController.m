@@ -19,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor redColor];
+    self.navigationController.navigationBarHidden=YES;
+    
+}
+
+
+-(void)rr
+{
     
 }
 
