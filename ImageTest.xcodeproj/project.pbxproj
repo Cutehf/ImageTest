@@ -15,6 +15,8 @@
 		28E682DB1BE0200F00EC5CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E682D91BE0200F00EC5CE7 /* LaunchScreen.storyboard */; };
 		28E682E61BE0200F00EC5CE7 /* ImageTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E682E51BE0200F00EC5CE7 /* ImageTestTests.m */; };
 		28E682F11BE0200F00EC5CE7 /* ImageTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E682F01BE0200F00EC5CE7 /* ImageTestUITests.m */; };
+		28E683011BE0207600EC5CE7 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E683001BE0207600EC5CE7 /* UIImage+Extensions.m */; settings = {ASSET_TAGS = (); }; };
+		28E683041BE0241300EC5CE7 /* UIImageTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E683031BE0241300EC5CE7 /* UIImageTransformation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		28E682EC1BE0200F00EC5CE7 /* ImageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E682F01BE0200F00EC5CE7 /* ImageTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTestUITests.m; sourceTree = "<group>"; };
 		28E682F21BE0200F00EC5CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E682FF1BE0207600EC5CE7 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extensions.h"; path = "../UIImage+Extensions.h"; sourceTree = "<group>"; };
+		28E683001BE0207600EC5CE7 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extensions.m"; path = "../UIImage+Extensions.m"; sourceTree = "<group>"; };
+		28E683021BE0241300EC5CE7 /* UIImageTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageTransformation.h; sourceTree = "<group>"; };
+		28E683031BE0241300EC5CE7 /* UIImageTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageTransformation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				28E682CF1BE0200E00EC5CE7 /* AppDelegate.m */,
 				28E682D11BE0200F00EC5CE7 /* ViewController.h */,
 				28E682D21BE0200F00EC5CE7 /* ViewController.m */,
+				28E683021BE0241300EC5CE7 /* UIImageTransformation.h */,
+				28E683031BE0241300EC5CE7 /* UIImageTransformation.m */,
+				28E682FF1BE0207600EC5CE7 /* UIImage+Extensions.h */,
+				28E683001BE0207600EC5CE7 /* UIImage+Extensions.m */,
 				28E682D41BE0200F00EC5CE7 /* Main.storyboard */,
 				28E682D71BE0200F00EC5CE7 /* Assets.xcassets */,
 				28E682D91BE0200F00EC5CE7 /* LaunchScreen.storyboard */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E683041BE0241300EC5CE7 /* UIImageTransformation.m in Sources */,
 				28E682D31BE0200F00EC5CE7 /* ViewController.m in Sources */,
 				28E682D01BE0200E00EC5CE7 /* AppDelegate.m in Sources */,
 				28E682CD1BE0200E00EC5CE7 /* main.m in Sources */,
+				28E683011BE0207600EC5CE7 /* UIImage+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
